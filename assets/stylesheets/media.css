@@ -1,0 +1,43 @@
+body {
+  background: #eed4ec;
+  }
+div.a {
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+  }
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .nav {
+    font-family: 'Titan One', cursive;
+    font-size: 30px;
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  .nav li {
+    display: inline-block;
+    font-size: 30px;
+    padding: 10px;
+    border-right: 3px solid #484fb7;
+  }
+  li:last-child {
+    border-right: none;
+  }
+  a:link {
+    text-decoration: none;
+  }
+  a:hover {
+    color= red;
+  }
