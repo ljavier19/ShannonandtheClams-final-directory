@@ -6,9 +6,11 @@ div.a {
     font-size: 40px;
     text-align: center;
     text-decoration: underline;
+    color: #484fb7;
   }
 div.row {
   font-family: 'Nunito', sans-serif;
+  color: #484fb7;
 }
 .column {
   float: left;
@@ -42,5 +44,69 @@ a:link {
   text-decoration: none;
 }
 a:hover {
-  color= red;
+  color: white;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.center {
+  text-align: center;
+  margin-left: auto;
+  padding: 25px 25px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline;
+}
+
+.container {
+  overflow: hidden;
+}
+.filterDiv {
+  float: left;
+  background-color: ;
+  color: ;
+  width: 100px;
+  line-height: 100px;
+  text-align: center;
+  margin: 5px;
+  display: none; /* Hidden by default */
+  padding-left: 40px;
+}
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #484fb7;
+  color: white;
+  cursor: pointer;
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+/* Add a light grey background on mouse-over */
+.btn:hover {
+  background-color: white;
+}
+/* Add a dark background to the active button */
+.btn.active {
+  background-color: #484fb7;
+  color: white;
 }

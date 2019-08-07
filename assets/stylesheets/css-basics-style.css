@@ -41,5 +41,24 @@ a:link {
   text-decoration: none;
 }
 a:hover {
-  color= red;
+  color: white;
+}
+section{
+  width: 100%;
+  height: auto;
+  margin: 30px auto;
+}
+.image-responsive {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.about-image {
+  max-width: 250px;
+  float: left;
+  padding-right: 10px;
+}
+.padding {
+  background-color: #faecf9;
+  padding: 10px 10px;
 }

@@ -1,5 +1,6 @@
 body {
   background: #eed4ec;
+  color: #484fb7;
   }
 div.a {
     font-family: 'Lobster', cursive;
@@ -39,5 +40,9 @@ div.a {
     text-decoration: none;
   }
   a:hover {
-    color= red;
+    color: white;
+  }
+
+  iframe {
+    padding-left: 100px;
   }
