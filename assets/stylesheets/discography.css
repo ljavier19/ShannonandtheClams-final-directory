@@ -14,6 +14,7 @@ body {
   width: 30%;
   padding: 110px;
   font-family: 'Nunito', sans-serif;
+  margin-left: 50px;
 }
 .row::after {
   content: "";
@@ -27,7 +28,10 @@ body {
   list-style-type: none;
   text-align: center;
   padding: 0;
-  margin: 0 0 0 0;
+  margin-top: 0;
+}
+.nav ul {
+  margin-top: 0;
 }
 .nav li {
   display: inline-block;
@@ -41,6 +45,9 @@ li:last-child {
 a:link {
   text-decoration: none;
 }
+a {
+    color: #484fb7;
+}
 a:hover {
   color: white;
 }
@@ -49,4 +56,13 @@ div.b {
 }
 .center {
   text-align: center;
+}
+.h1 {
+  margin-bottom: 0;
+}
+#rowbkg {
+  background-color: #faecf9;
+}
+#title {
+  margin-bottom: 0px;
 }

@@ -40,6 +40,9 @@ div.b {
   padding: 10px;
   border-right: 3px solid #484fb7;
 }
+.nav ul {
+  margin-top: 0;
+}
 li:last-child {
   border-right: none;
 }
@@ -48,4 +51,10 @@ a:link {
 }
 a:hover {
   color: white;
+}
+a {
+  color: #484fb7;
+}
+#title {
+  margin-bottom: 0px;
 }
