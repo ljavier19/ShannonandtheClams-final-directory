@@ -125,7 +125,9 @@ li {
 .btn:hover {
   background-color: white;
 }
-
+#rcorners {
+  border-radius: 15px;
+}
 /* Add a dark background to the active button */
 .btn.active {
   background-color: #484fb7;

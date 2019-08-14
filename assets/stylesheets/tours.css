@@ -1,7 +1,9 @@
 body {
   background: #eed4ec;
 }
-
+table {
+  margin-top: 85px;
+}
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
