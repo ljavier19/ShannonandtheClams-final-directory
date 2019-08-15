@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Merch</title>
+  <link href="./assets/stylesheets/merch.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Nunito|Titan+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="a">
+    <h1 id="title">Shannon and the Clams</h1>
+  </div>
+  <div class="nav">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="tours.html">Tours</a></li>
+      <li><a href="media.html">Media</a></li>
+      <li><a href="merch.html">Merch</a></li>
+      <li><a href="discography.html">Discography</a></li>
+    </ul>
+  </div>
+
+  <div class="center" style="padding-top: 40px; padding-bottom: 40px;">
+    <div id="myBtnContainer">
+      <button class="btn active" onclick="filterSelection('all')" id="rcorners" style="margin-right: 40px;"> Show all</button>
+      <button class="btn" onclick="filterSelection('buttons')" id="rcorners" style="margin-right: 40px;"> Pins</button>
+      <button class="btn" onclick="filterSelection('tshirt')" id="rcorners"> T-Shirts</button>
+    </div>
+  </div>
+
+  <div class="container">
+    <!-- <div class="row"> -->
+    <!-- <div class="column"> -->
+    <div class="filterDiv buttons">
+      <div class="merch-item-overlay">
+        <div class="text"> Enamel Pin Set $20</div>
+      </div>
+      <img src="./assets/images/merch/clams-enamel-pins.jpg" />
+    </div>
+    <!-- </div> -->
+    <!-- <div class="column"> -->
+    <div class="filterDiv buttons">
+      <div class="merch-item-overlay">
+        <div class="text">Enamel Pin $1</div>
+      </div>
+      <img src="./assets/images/merch/pin1.jpeg" />
+    </div>
+    <!-- </div> -->
+    <!-- <div class="column"> -->
+    <div class="filterDiv buttons">
+      <div class="merch-item-overlay">
+        <div class="text">Enamel Pin $1</div>
+      </div>
+      <img src="./assets/images/merch/pin2.jpeg" />
+    </div>
+    <!-- </div> -->
+    <!-- </div> -->
+    <!-- <div class="row"> -->
+    <!-- <div class="column"> -->
+    <div class="filterDiv tshirt">
+      <div class="merch-item-overlay">
+        <div class="text">T-Shirt $20</div>
+      </div>
+      <img src="./assets/images/merch/ringer1.jpg" />
+    </div>
+    <!-- </div> -->
+    <!-- <div class="column"> -->
+    <div class="filterDiv tshirt">
+      <div class="merch-item-overlay">
+        <div class="text">T-Shirt $20</div>
+      </div>
+      <img src="./assets/images/merch/tshirt.png" />
+    </div>
+    <!-- </div> -->
+    <!-- <div class="column"> -->
+    <div class="filterDiv tshirt">
+      <div class="merch-item-overlay">
+        <div class="text">T-Shirt $20</div>
+      </div>
+      <img src="./assets/images/merch/tshirt2.jpg" />
+    </div>
+    <!-- </div> -->
+    <!-- </div> -->
+  </div>
+
+  <script src="./assets/javascripts/filters.html"></script>
+</body>
+
+</html>
